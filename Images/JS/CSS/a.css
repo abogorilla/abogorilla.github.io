@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+table, th, td {
+  border: 1px solid black;
+}
+ <style>
+        .infocontainer {
+          border: 5px outset #BA2ECE;
+          background-color: whitesmoke;
+          text-align: left;
+          padding: 20px;
+          width: 25%;
+          margin-right: 10px;
+          float left: ; 
+          background-color: indianred;
+          color: whitesmoke;
+        }
+        </style>
+

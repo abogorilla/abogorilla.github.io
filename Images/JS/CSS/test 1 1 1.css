@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+img {
+  float: none;
+}
+.myDiv {
+  border: 5px outset blue;
+  background-color: sandybrown;    
+  text-align: center;
+}
+		table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: cadetblue;
+}
+
+.info {
+  border: 5px outset blue;
+  background-color: darkgoldenrod;    
+  text-align: center;
+}
+.faris {
+  border: 5px outset blue;
+  background-color: sandybrown;    
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
