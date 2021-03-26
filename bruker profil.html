@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title>Bruker Profil</title>
+</html>
+<h1>Lag Din Profil</h1>
+<body>
+    <form>
+        <label>Fornavn: </label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label>Etternavn: </label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label>Brukersnavn: </label><br>
+        <input type="text" id="vname" name="bname"><br><br>
+        <label>Fødselsdato: </label><br>
+        <input type="date" id="bdate" name="bdate"><br>
+        <p>Eksempel; 10.06.04</p> <br>
+        <label>Skriftfarge: </label><br>
+        <select name="fcolor" id="fcolor">
+            <option value="blue">Blå</option>
+            <option value="green">Grønn</option>
+            <option value="yellow">Gul</option>
+            <option value="red">Rød</option>
+            <option value="pink">Pink</option>
+            <option value="black">Svart</option>
+            <option value="purple">Lilla</option>
+        </select><br><br>
+        <input type="button" onclick="changeColor()" value="Forandre skriftfarge"> <br><br>
+    
+    <label>Bakgrunnsfarge: </label><br>
+    <select name="fcolor" id="bcolor">
+            <option value="blue">Blå</option>
+            <option value="green">Grønn</option>
+            <option value="yellow">Gul</option>
+            <option value="red">Rød</option>
+            <option value="pink">Pink</option>
+            <option value="black">Svart</option>
+            <option value="purple">Lilla</option>
+        </select><br><br>
+        <input type="button" onclick="changeBackgroundColor()" value="Forandre bakgrunnsfarge"> <br><br>
+    </form>
+    <script src="bruker valg.js"></script>
+</body>
+</html>
